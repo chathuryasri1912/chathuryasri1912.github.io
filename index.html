@@ -1,1 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sreelakshmi Vellanki — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — Projects, skills, and contact." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Go to top">
+      <span class="dot"></span> Sreelakshmi Vellanki
+    </a>
+
+    <nav class="links" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn" class="btn ghost" type="button" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-left reveal">
+        <p class="pill">Available for opportunities</p>
+        <h1>
+          I build <span class="grad">clean, modern</span><br />
+          experiences that people love.
+        </h1>
+        <p class="sub">
+          I’m <strong>Sreelakshmi Vellanki</strong>, a <strong>Role</strong> focused on <strong>your niche</strong>.
+          I design/build projects with measurable outcomes.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+        </div>
+
+        <div class="meta">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <span>•</span>
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span>•</span>
+          <a href="mailto:you@email.com">you@email.com</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="card">
+          <div class="card-top">
+            <p class="kicker">Currently</p>
+            <p class="value">Building projects & learning</p>
+          </div>
+          <div class="card-mid">
+            <p class="kicker">Focus</p>
+            <p class="value">Modern UI • Performance • UX</p>
+          </div>
+          <div class="card-bot">
+            <p class="kicker">Location</p>
+            <p class="value">India • Remote</p>
+          </div>
+        </div>
+        <p class="hint">Tip: click any project to open details.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <h2>Featured Projects</h2>
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="chip active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="web" type="button">Web</button>
+          <button class="chip" data-filter="ui" type="button">UI/UX</button>
+          <button class="chip" data-filter="data" type="button">Data</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <article class="proj reveal" data-tags="web ui"
+          data-title="Project One"
+          data-desc="What you built + impact. Example: Increased signups by 22% with a redesigned landing page."
+          data-stack="HTML, CSS, JS"
+          data-links='[{"label":"Live Demo","url":"https://example.com"},{"label":"GitHub","url":"https://github.com"}]'>
+          <div class="thumb">
+            <div class="shine"></div>
+            <div class="thumb-inner">
+              <p class="thumb-title">Project One</p>
+              <p class="thumb-sub">Modern landing page</p>
+            </div>
+          </div>
+          <div class="proj-foot">
+            <p class="proj-name">Project One</p>
+            <p class="proj-tags">Web • UI</p>
+          </div>
+        </article>
+
+        <article class="proj reveal" data-tags="data"
+          data-title="Project Two"
+          data-desc="What you built + outcome. Example: Built a dashboard that tracks KPIs in real time."
+          data-stack="Python, SQL, Charts"
+          data-links='[{"label":"Case Study","url":"https://example.com"}]'>
+          <div class="thumb">
+            <div class="shine"></div>
+            <div class="thumb-inner">
+              <p class="thumb-title">Project Two</p>
+              <p class="thumb-sub">Analytics dashboard</p>
+            </div>
+          </div>
+          <div class="proj-foot">
+            <p class="proj-name">Project Two</p>
+            <p class="proj-tags">Data</p>
+          </div>
+        </article>
+
+        <article class="proj reveal" data-tags="ui"
+          data-title="Project Three"
+          data-desc="Example: Designed a mobile app flow and improved task completion time by 15%."
+          data-stack="Figma, Prototyping"
+          data-links='[{"label":"Behance","url":"https://behance.net"}]'>
+          <div class="thumb">
+            <div class="shine"></div>
+            <div class="thumb-inner">
+              <p class="thumb-title">Project Three</p>
+              <p class="thumb-sub">App UX redesign</p>
+            </div>
+          </div>
+          <div class="proj-foot">
+            <p class="proj-name">Project Three</p>
+            <p class="proj-tags">UI/UX</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="two-col">
+        <div class="reveal">
+          <h2>About</h2>
+          <p>
+            Write 5–7 lines about yourself: what you do, what you’re learning, and what kind of roles/projects you want.
+          </p>
+          <p>
+            Add 1–2 proof points: internships, achievements, certifications, or metrics.
+          </p>
+        </div>
+
+        <div class="reveal">
+          <div class="stats">
+            <div class="stat">
+              <p class="num">3+</p>
+              <p class="lbl">Projects</p>
+            </div>
+            <div class="stat">
+              <p class="num">1</p>
+              <p class="lbl">Specialty</p>
+            </div>
+            <div class="stat">
+              <p class="num">100%</p>
+              <p class="lbl">Curiosity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p class="muted">Keep this focused—only what you’re confident with.</p>
+      </div>
+      <div class="tags reveal">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">Git</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact reveal">
+        <h2>Let’s talk</h2>
+        <p class="muted">Email is best. I usually reply within 24–48 hours.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:you@email.com">Email Me</a>
+          <a class="btn" href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name. Built with GitHub Pages.</p>
+      <button class="btn ghost small" id="topBtn" type="button">↑ Back to top</button>
+    </footer>
+  </main>
+
+  <!-- Project Modal -->
+  <dialog id="modal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="mTitle">Project</h3>
+        <button class="btn ghost" id="closeModal" type="button" aria-label="Close">✕</button>
+      </div>
+      <p id="mDesc" class="modal-desc"></p>
+      <p class="muted"><strong>Stack:</strong> <span id="mStack"></span></p>
+      <div id="mLinks" class="actions"></div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
